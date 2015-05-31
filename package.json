@@ -1,0 +1,23 @@
+{
+  "name": "signal-sources",
+  "version": "1.0.0",
+  "description": "Signal generators",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "step",
+    "ramp",
+    "sine",
+    "expsine",
+    "exponentials",
+    "pulse",
+    "sawtooth",
+    "trapezoid",
+    "source",
+    "signal"
+  ],
+  "author": "",
+  "license": "MIT"
+}
