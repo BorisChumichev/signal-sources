@@ -6,8 +6,8 @@ class Sine extends GenericSignal {
   /**
    * @constructor
    * @param  {Number} amplitude     sine amplitude
-   * @param  {Number} frequency     sine frequency
-   * @param  {Number} phase         sine phase offset
+   * @param  {Number} frequency     sine frequency [Hz]
+   * @param  {Number} phase         sine phase [rad]
    * @param  {Number} offset        sine ordinate offset
    * @param  {Number} startTime     start time
    */
