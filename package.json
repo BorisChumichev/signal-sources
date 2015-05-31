@@ -4,7 +4,7 @@
   "description": "Signal generators",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "gulp build && mocha --harmony -R spec"
   },
   "keywords": [
     "step",
@@ -19,5 +19,11 @@
     "signal"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.3",
+    "gulp": "^3.8.11",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
