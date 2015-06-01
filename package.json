@@ -2,7 +2,7 @@
   "name": "signal-sources",
   "version": "1.0.0",
   "description": "Signal generators",
-  "main": "lib/index.js",
+  "main": "build/signal-sources.js",
   "scripts": {
     "test": "gulp build && mocha --harmony -R spec"
   },
