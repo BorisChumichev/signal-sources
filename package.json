@@ -1,6 +1,6 @@
 {
   "name": "signal-sources",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Signal generators",
   "main": "build/signal-sources.js",
   "scripts": {
